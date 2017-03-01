@@ -112,9 +112,47 @@ SVG is a language for describing two-dimensional graphics in XML. SVG allows for
 SVG drawings can be dynamic and interactive. The Document Object Model (DOM) for SVG, which includes the full XML DOM, allows for straightforward and efficient vector graphics animation via scripting. A rich set of event handlers such as onmouseover and onclick can be assigned to any SVG graphical object. Because of its compatibility and leveraging of other Web standards, features like scripting can be done on SVG elements and other XML elements from different namespaces simultaneously within the same Web page.
 
 
-
+SVG
+====
 Scalable Vector Graphics (SVG) is a Web graphics language. 
 SVG defines markup and APIs for creating static or dynamic images, capable of 
 interactivity and animation, including various graphical effects. 
 It can be styled with CSS, and combined with HTML. This document provides an 
 introduction to SVG, with examples and explanations.
+
+SVG or Scalable Vector Graphics is a relatively new World Wide Web Consortium (W3C) 
+standard, used by a host of companies and organizations, for the creation and display 
+of vector graphic material. SVG is an XML language that allows dynamic creation of 
+content using JavaScript within or outside the context of the World Wide Web.
+
+Advantages of SVG
+==================
+SVG has some advantages over conventional bitmapped graphics, such as JPEG, GIF, and PNG, 
+used in the browser environment, because of several reasons:
+
+1. The files are generally much smaller than bitmaps, resulting in quicker download times.
+2. The graphics can be scaled to fit different display devices without the pixelation 
+   associated with enlarging bitmaps.
+3. The graphics are constructed within the browser, reducing the server load and network 
+   response time generally associated with web imagery. That is, a typically small 
+   formulaic description is sent from the server to the client. 
+   The client then reconstructs the imagery based on the formulas it receives.
+4. The end-user can interact with and change the graphics without need for complex and 
+   costly client-server communications.
+5. It provides native support for SMIL (Synchronized Media Integration Language) meaning 
+   that animations, for example, are supported with a more analog notion of timing, 
+   hence freeing the programmer from timed loops typically used in JavaScript-based 
+   animations.
+6. It responds to JavaScript: the same scripting language used in the HTML environment. 
+   This means the two types of documents may converse, share information and modify one 
+   another.
+SVG is an XML language. This is important for at least three reasons. First, the 
+code tends to adhere to agreed upon standards of how SVG should be written and how 
+client software should respond. Second, like all XML, it is written in text, and 
+can generally be read not only by machines but also by humans. Third, and perhaps 
+most importantly, JavaScript can be used to manipulate both the objects and the 
+Document Object Model, in ways quite similar to how JavaScript is used in conjunction 
+with HTML. If you already know how to use JavaScript and HTML for web-programming, 
+the learning curve will be pretty gentle, particularly in view of the benefits to be 
+gained.
+
